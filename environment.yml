@@ -1,0 +1,8 @@
+name: restx_env
+dependencies:
+    - python=3.6
+    - flask-restx
+    - pip
+    - pip:
+        - requests
+        - gunicorn 

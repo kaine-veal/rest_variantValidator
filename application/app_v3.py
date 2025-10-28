@@ -4,8 +4,8 @@ Simple rest interface for VariantVlidator built using Flask Flask-RESTPlus and S
 
 # Import modules
 from flask import Flask
-from flask_restplus import Api, Resource
-import _____
+from flask_restx import Api, Resource
+import requests
 
 # Define the application as a Flask app with the name defined by __name__ (i.e. the name of the current module)
 # Most tutorials define application as "app", but I have had issues with this when it comes to deployment,
@@ -35,15 +35,15 @@ class NameClass(Resource):
         }
 
 vv_space = api.namespace('VariantValidator', description='VariantValidator APIs')
-@vv_space.route("/variantvalidator/_____")
+@vv_space.route("/variantvalidator/<string:variant>")
 class VariantValidatorClass(Resource):
-    def get(self, _____):
+    def get(self, variant):
 
         # Make a request to the curent VariantValidator rest-API
-        url = _____
-        validation = _____
-        content = _____
-        return _____
+        url = f"https://rest.variantvalidator.org/VariantValidator/variantvalidator/<assembly>/{variant}/"
+        validation = requests.get(url)
+        content = validation.json() 
+        return content
 
 # Allows app to be run in debug mode
 if __name__ == '__main__':
