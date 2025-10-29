@@ -1,28 +1,9 @@
-aniso8601 @ file:///tmp/build/80754af9/aniso8601_1614708839015/work
-attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
-certifi==2021.5.30
-charset-normalizer==2.0.12
-click==8.0.3
-dataclasses @ file:///tmp/build/80754af9/dataclasses_1614363715916/work
-dicttoxml==1.7.16
 Flask==1.1.1
-flask-restplus==0.13.0
-flask-restx @ file:///tmp/build/80754af9/flask-restx_1635786669713/work
-gunicorn==21.2.0
-idna==3.10
-importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1631916693255/work
-itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
-Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
-jsonschema @ file:///Users/ktietz/demo/mc3/conda-bld/jsonschema_1630511932244/work
-MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1621528150516/work
-packaging==21.3
-pyparsing==3.1.4
-pyrsistent @ file:///tmp/build/80754af9/pyrsistent_1600141725711/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz==2021.3
+flask-restx==0.5.1
+dicttoxml==1.7.16
 requests==2.27.1
-six @ file:///tmp/build/80754af9/six_1644875935023/work
-typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
-urllib3==1.26.20
-Werkzeug==0.16.1
-zipp @ file:///tmp/build/80754af9/zipp_1633618647012/work
+click==8.0.3
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+itsdangerous==2.0.1
+Werkzeug==2.0.3
