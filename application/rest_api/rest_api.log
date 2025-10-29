@@ -1,0 +1,4 @@
+2025-10-29 11:58:59,190 - WARNING - Unknown content-type 'None', responding with default format
+2025-10-29 12:02:39,830 - INFO - Received request to /hello endpoint
+2025-10-29 12:02:39,830 - DEBUG - Parsed request arguments: {'content-type': None}
+2025-10-29 12:02:39,831 - WARNING - Unknown content-type 'None', responding with default format
